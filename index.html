@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ibhan G. Calubag - Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <h1>My Portfolio</h1>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="card home-container fade-in">
+    <div class="home-text">
+      <h3>Welcome! I'm</h3>
+      <h1 class="name">Ibhan G. Calubag</h1>
+      <h2 class="role">An aspiring <span class="highlight">IT Specialist</span></h2>
+      <p>
+        I’m a Bachelor of Science in Information Technology student passionate about 
+        building solutions through technology. With experience in programming, system 
+        support, and front-end development, I enjoy turning ideas into practical, 
+        efficient applications. My goal is to grow as an IT professional while 
+        continuously learning and adapting to new technologies.
+      </p>
+    </div>
+
+    <div class="home-image">
+      <img src="IbhanCalubag.jpg" alt="Ibhan G. Calubag">
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="card fade-in">
+    <h2>About Me</h2>
+    <p id="about-text">
+      Hello! My name is <strong>Ibhan G. Calubag</strong>. I’m an IT Specialist with a passion for technology, programming, and problem-solving. 
+      My goal is to create efficient solutions, whether it’s through software, systems, or technical support. 
+      I enjoy working on projects that challenge my creativity and sharpen my technical skills.
+    </p>
+    <!-- Edit button -->
+    <button id="edit-btn">Edit</button>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="card fade-in">
+    <h2>Certificates</h2>
+    <div class="certificates-grid">
+      <div class="certificate">
+        <img src="HTML.jpg" alt="HTML Certificate" class="cert-img">
+        <p>HTML</p>
+      </div>
+      <div class="certificate">
+        <img src="CSS.jpg" alt="CSS Certificate" class="cert-img">
+        <p>CSS</p>
+      </div>
+      <div class="certificate">
+        <img src="JAVASCRIPT.jpg" alt="JavaScript Certificate" class="cert-img">
+        <p>JavaScript</p>
+      </div>
+      <div class="certificate">
+        <img src="SQL.jpg" alt="SQL Certificate" class="cert-img">
+        <p>SQL</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Modal -->
+  <div id="cert-modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <p id="modal-caption"></p>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="card fade-in">
+    <h2>Contact</h2>
+    <div class="contact-container">
+      <div class="contact-item">
+        <img src="email.png" alt="Email Icon" class="contact-icon">
+        <span>Email: ibhancalubag17@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <img src="phone.png" alt="Phone Icon" class="contact-icon">
+        <span>Phone: 09638330319</span>
+      </div>
+      <div class="contact-item">
+        <img src="facebook.jpg" alt="Facebook Icon" class="contact-icon">
+        <span>Facebook: 
+          <a href="https://web.facebook.com/oppoilko" target="_blank" rel="noopener noreferrer">
+            facebook.com/oppoilko
+          </a>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top">⬆</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
